@@ -478,4 +478,8 @@ override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?)
 
 </code></pre>
     
-然后上线产品https://pinyin.isoyu.com
+然后上线产品
+https://pinyin.isoyu.com
+
+https://github.com/insoxin/pinyin/
+
