@@ -21,26 +21,21 @@
 
 创建一个singleview Application，这个就是输入法的设置界面。</br>
 
-![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/
-/1.1.png)
+![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/1.1.png)
 
 添加一个target，即app extension（扩展），选择输入法扩展</br>
 
-![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/
- 1.2.png)
+![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/1.2.png)
 
-![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/
- 1.3.png)
+![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/1.3.png)
 
 大概的目录结构如下</br>
 
-![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/
- 1.4.png)
+![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/1.4.png)
 
 //主要的viewcontorller：keyboardviewcontroller，在这里实现输入法的界面、输入事件等等</br>
 
-![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/
- 1.5.png)
+![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/1.5.png)
 
 
 <h3>3、输入法展示，包括一些功能点</h3>
@@ -51,39 +46,33 @@
 
 这里面的所有按键都是自己绘制的，包括字母按键、shift(大小写切换键)、delete(删除键)和输入法切换键(地球键)。</br>
 
-![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/
- mainScreen.png)
+![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/mainScreen.png)
 
 <h4>3.1字母输入</h4>
 
 动态图如下：</br>
 
-![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/
- 001.gif)
+![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/001.gif)
 
 <h4>3.2大小写切换></h4>
 
 单击shift这个按键，会允许当前首字母大写，并重新绘制界面。</br>
 
-![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/
- 002.gif)
+![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/002.gif)
 
 双击shift按键，会开启全部字母大写设置，并重新绘制界面</br>
 
-![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/
- 003.gif)
+![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/003.gif)
 
 <h4>3.3删除功能</h4>
 
 短按delete按键，每次删除一个字符</br>
 
-![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/
- 004.gif)
+![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/004.gif)
 
 长按delete按键，加速删除，**要注意下，你可能感觉观看效果删除缓慢，实际效果不是这样的，但是我转 gif 时，不知怎的就是慢，暂时就这样**</br>
 
-![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/
- 005.gif)
+![image](https://cdn.jsdelivr.net/gh/insoxin/pinyin@master/image/005.gif)
 
 <h3>4、功能点解析</h3>
 
@@ -488,4 +477,4 @@ override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?)
 
 </code></pre>
     
-
+然后上线产品https://pinyin.isoyu.com
