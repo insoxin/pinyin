@@ -1,4 +1,5 @@
-# pinyin  TXInputMethod
+# INSO输入法-为输入提速！ for iPhone
+https://pinyin.isoyu.com/
 一款iOS13第三方输入法，供分享、学习和拓展之用。
 
 <h2>iOS13第三方输入法实例-Swift版</h2>
